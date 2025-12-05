@@ -22,8 +22,6 @@ responses = requests.get(url)
 articles = responses.json()['articles']
 articles = [article for article in articles if keyword.lower() in article['title'].lower() or keyword.lower() in article['description'].lower()]
 
-pos_score = 0
-neg_score = 0
 total_score= 0
 num_articles = 0
 
