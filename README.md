@@ -1,4 +1,4 @@
-# 📰 Análisis de Sentimiento Financiero Modular
+# 📰 Análisis de Sentimiento Financiero 
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![APIs](https://img.shields.io/badge/Datos-NewsAPI%20%7C%20Yahoo%20Finance%20RSS-informational)
