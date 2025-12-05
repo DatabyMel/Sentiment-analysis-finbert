@@ -1,0 +1,17 @@
+# .gitignore
+
+# Archivos de configuración sensibles que NO deben ir al repositorio
+# Esto incluye tu clave de acceso a NewsAPI
+API_KEY
+
+# Directorios de compilación y caché de Python
+# Git debe ignorar archivos .pyc y la carpeta __pycache__
+__pycache__/
+*.pyc
+
+# Archivos de entorno virtual (si usas uno)
+# Si tu entorno virtual se llama 'venv', inclúyelo
+# venv/
+
+# Archivos generados por librerías (como Jupyter, si es el caso)
+.ipynb_checkpoints
